@@ -1,0 +1,14 @@
+{
+  "name": "pd-gulp-jade-task",
+  "description": "pd-gulp-jade-task",
+  "version": "0.0.1",
+  "dependencies": {
+    "pd-gulp-base-task": "git://github.com/platdesign/pd-gulp-base-task",
+    "gulp-jade": "^0.11.0",
+    "gulp-watch": "^4.1.0"
+  },
+  "repository": "",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}
