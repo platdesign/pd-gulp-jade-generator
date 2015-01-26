@@ -8,7 +8,7 @@ module.exports = baseTask('Jade', function() {
 
 
 
-	this.worker(function(job, cb) {
+	this.compile(function(job, cb) {
 
 		this.gulp.src(job.config.src)
 			.pipe( jade( job.config.jade ) )
