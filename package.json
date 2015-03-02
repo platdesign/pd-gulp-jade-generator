@@ -1,13 +1,17 @@
 {
-  "name": "pd-gulp-jade-generator",
+  "name": "pd-gulp-jade",
   "description": "pd-gulp task generator for jade tasks",
-  "version": "0.0.1",
+  "author": "Christian Blaschke <mail@platdesign.de>",
+  "version": "0.0.2",
   "dependencies": {
     "pd-gulp-task-generator-generator": "*",
     "gulp-jade": "^0.11.0",
     "gulp-watch": "^4.1.0"
   },
-  "repository": "",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/platdesign/pd-gulp-jade-generator.git"
+  },
   "devDependencies": {
     "gulp": "^3.8.10"
   }
