@@ -1,10 +1,9 @@
 'use strict';
 
-var baseTask = require('pd-gulp-base-task');
+var createGenerator = require('pd-gulp-task-generator-generator');
 var jade = require('gulp-jade');
-var watch = require('gulp-watch');
 
-module.exports = baseTask('Jade', function() {
+module.exports = createGenerator('Jade', function() {
 
 
 

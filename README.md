@@ -1,13 +1,16 @@
-#pd-gulp-jade-task
+#pd-gulp-jade
+
+[pd-gulp](https://github.com/platdesign/pd-gulp) task generator for jade tasks.
+
 
 ##Install
 
-	npm install --save platdesign/pd-gulp-jade-task
+	npm install --save pd-gulp-jade
 	
 ##Example
 
 	var gulp = require('gulp');
-	var jade = require('pd-gulp-jade-task')(gulp);
+	var jade = require('pd-gulp-jade')(gulp);
 
 	// Register default tasks (default, watch, build, etc.)
 	jade.register({

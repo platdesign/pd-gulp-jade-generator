@@ -1,9 +1,9 @@
 {
-  "name": "pd-gulp-jade-task",
-  "description": "pd-gulp-jade-task",
+  "name": "pd-gulp-jade-generator",
+  "description": "pd-gulp task generator for jade tasks",
   "version": "0.0.1",
   "dependencies": {
-    "pd-gulp-base-task": "git://github.com/platdesign/pd-gulp-base-task",
+    "pd-gulp-task-generator-generator": "*",
     "gulp-jade": "^0.11.0",
     "gulp-watch": "^4.1.0"
   },
